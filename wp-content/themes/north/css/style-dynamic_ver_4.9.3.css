@@ -1,0 +1,161 @@
+
+
+.separator div,
+body {
+	background-color:	#222326;
+	color:				#d1d1d1;
+}
+
+a,
+.vntd-accent-color {
+	color:				#af9864;
+}
+
+
+
+/* Navigation */
+
+#navigation-sticky.white-nav,
+.second-nav.white-nav,
+.white-nav .nav-menu ul.dropdown-menu {
+	background-color:	#21242a;
+}
+
+#navigation-sticky.white-nav,
+.second-nav.white-nav .nav-menu,
+.first-nav.white-nav .nav-menu ul.dropdown-menu li a {
+	color:	#ffffff;
+}
+
+.second-nav.white-nav .nav-inner .nav-menu ul li.active a,
+.white-nav .nav-menu ul.dropdown-menu li a:hover,
+.white-nav .nav-menu ul.dropdown-menu li.active a,
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color:	#f8f8f8;
+}
+
+/* Page Title */
+
+section.page_header {
+	background-color:	#171717;
+	border-color:		#171717;
+}
+
+section.page_header .page_header_inner .p_head_left h1.p-header {
+	color:	#af9864;
+}
+
+section.page_header .page_header_inner .p_head_left p.p-desc {
+	color:	#e4e4e4;
+}
+
+section.page_header .page_header_inner .p_head_right a.p-head-button {
+	color:	#6a6a6a;
+}
+
+/* Footer */
+
+.footer.white-bg {
+	background-color:	#191919 !important;
+	border-color:		#191919;
+	color:				#af9864;
+}
+
+.footer.white-bg a,
+.footer.white-bg p {
+	color:				#af9864;
+}
+
+/* Typography */
+
+ h1,h2,h3,h4,h5,h6 { color:#af9864; }
+/* Text Colors */
+
+	.colored,
+	.testimonials li.text h1 span,
+	#page-content .vntd-pricing-box.p-table.active h1,
+	#page-content .vntd-pricing-box.p-table.active h3,
+	#address .address-soft a.mail-text:hover,
+	.white-nav .nav-menu ul.dropdown-menu li a:hover,
+	.vntd-icon-box.box:hover .left-icon a,
+	.white-nav .nav-menu ul.dropdown-menu li.active a,
+	footer.footer a:hover,
+	section.page_header .page_header_inner .p_head_right a.p-head-button:hover,
+	body.dark-layout section.page_header .page_header_inner .p_head_right a.p-head-button:hover,
+	#blog .details .post-info a.post-item:hover,
+	.dark-nav .nav-menu ul.dropdown-menu li a:hover,
+	.dark-nav .nav-menu ul.dropdown-menu li.active a,
+	a.text-button:hover,
+	.blog .details a.post-item:hover,
+	span.post-item a:hover,
+	.nav-menu ul li a:hover,
+	.nav-menu ul li.active a,
+	#page-content .color-accent,
+	.blog .post a.read-more-post:hover,
+	.address-soft a.mail-text:hover,
+	.bar.widget_rss a.rsswidget:hover,
+	.twitter-feed-icon:hover {
+		color: #af9864;
+	}
+
+/* Background Colors */
+
+	::selection,
+	.colored-bg,
+	a.page-content-button:hover,
+	.feature-box:hover a.box-icon,
+	.vntd-portfolio-carousel .works .item .featured-ball:hover,
+	.vntd-cta-button:hover,
+	.vntd-pricing-box.p-table.active a.p-button,
+	.vntd-pricing-box.p-table a.p-button:hover,
+	a.active-colored,
+	.blocked,
+	.modal .modal-inner a.close:hover,
+	.portfolio a.portfolio-view-more:hover,
+	body.dark-layout .portfolio a.portfolio-view-more:hover,
+	#team .team .team-boxes .item .member-details .details a.member-detail-button:hover,
+	.bar .tagcloud a:hover,
+	#respond #submit:hover,
+	ul.pagination li.active a,
+	ul.pagination li.active a:hover,
+	body.dark-layout ul.pagination li.active a,
+	body.dark-layout ul.pagination li.active a:hover,
+	.contact form button.contact-form-button:hover,
+	.btn-accent,
+	.vntd-list-bg i,
+	.vntd-accent-bgcolor,
+	.pagination .current,
+	.contact .wpcf7-submit:hover,
+	.blog .post.sticky .blog-head,
+	.portfolio .portfolio-items div.colio-active-item .item-inner,
+	#page-content .colio-navigation a:hover,
+	#page-content .colio-close {
+		background-color:#af9864;
+	}
+
+/* Border Colors */
+
+	.colored-border,
+	.feature-box:hover a.box-icon:after,
+	a.text-button:hover,
+	#team .team .team-boxes .item .member-details .details a.member-detail-button:hover,
+	.bar .tagcloud a:hover,
+	ul.pagination li.active a,
+	ul.pagination li.active a:hover,
+	.bs-callout-north,
+	.vntd-icon-box.box:hover .left-icon a,
+	.btn-accent,
+	.pagination .current,
+	.contact .wpcf7-submit:hover,
+	blockquote {
+		border-color:#af9864;
+	}
+
+	.tabs .nav-tabs li.active a,
+	.nav-menu ul.dropdown-menu{
+		border-top-color:#af9864;
+	}
+	
+/* Font Sizes */
+
+ .semibold { font-weight:600; }
