@@ -38,31 +38,30 @@ img.emoji {
 	padding: 0 !important;
 }
 
-#carselection{
-	color: gray;
+#carsIdentifier{
 	display: inline-block;
-	margin: 5%;
-
-}
-
-#houseselection{
-	color: gray;
-	display: inline-block;
-	margin: 3.5%;
+	margin: 2%;
 	
 }
 
-#yachtselection{
-	color: gray;
+#housesIdentifier{
 	display: inline-block;
-	margin: 3.5%;
+	margin: 2%;
+}
+#yachtIdentifier{
+	display: inline-block;
+	margin: 2%;
 }
 
-#jetselection{
-	color: gray;
+#jetIdentifier{
 	display: inline-block;
-	margin: 4%;
+	margin: 2%;
 }
+
+.controls{
+	display: inline-block;
+}
+
 
 
 </style>
@@ -183,7 +182,7 @@ var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activ
 
 <li id="menu-item-2108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2108"><a href="index.html">Rentals</a>
 <ul class="dropdown-menu">
-	<li id="menu-item-2091" class="menu-item menu-item-type-taxonomy menu-item-object-project-type menu-item-2091"><a href="index.html">Accomodation</a></li>
+	<li id="menu-item-2091" class="menu-item menu-item-type-taxonomy menu-item-object-project-type menu-item-2091"><a href="index.html">Luxuy Houses</a></li>
 	<li id="menu-item-2090" class="menu-item menu-item-type-taxonomy menu-item-object-project-type menu-item-2090"><a href="index.html">Luxury Cars </a></li>
 	<li id="menu-item-2343" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-2343"><a href="index.html">Luxury Boats</a></li>
 	<li id="menu-item-2341" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-2341"><a href="index.html">Luxury Concierge</a></li>
@@ -250,8 +249,8 @@ var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activ
 					<!-- Home Text Slides -->
 					<ul class="home-texts clearfix">
 						<li class="slide white font-primary uppercase">LUXURY CARS </li>
-						<li class="slide white font-primary uppercase">PRIVATE JETS</li>
-						<li class="slide white font-primary uppercase">ACCOMODATION</li>
+						<li class="slide white font-primary uppercase">LUXURY HOUSES</li>
+						<li class="slide white font-primary uppercase">PRIVATE JETS </li>
 						<li class="slide white font-primary uppercase">YACHTS</li>
 						<!--<li class="slide white font-primary uppercase">WEDDINGS</li>-->
 						<!--<li class="slide white font-primary uppercase">PRIVATE EVENTS</li>-->
@@ -414,7 +413,7 @@ From Parties, To Conferences, Birthdays ,Graduations and Anniversaries</p>
 			<div id="gallery" class="vntd-special-heading"style="margin-bottom:0px;"><h1 class="header " >Our Luxury Offer</h1><div class="header-strips-one " ></div><h2 class="description normal " >Select the different solutions offered by our agency</h2></div><div class="portfolio t-center fullwidth relative">	<div id="options" class="filter-menu fullwidth">
 		<ul id="filters" class="option-set relative normal font-primary uppercase" data-option-key="filter">
 			<li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
-			<li><a href="#filter" data-option-value=".boats-jets-rentals"><span>Accomodation</span></a></li>
+			<li><a href="#filter" data-option-value=".boats-jets-rentals"><span>Luxury Houses</span></a></li>
 			<li><a href="#filter" data-option-value=".hotels"><span>Luxury Cars</span></a></li>
 			<li><a href="#filter" data-option-value=".luxury-cars-rentals"><span>Luxury Boats</span></a></li>
 			<li><a href="#filter" data-option-value=".private-tours"><span>Luxury Concierge</span></a></li>
@@ -1000,7 +999,7 @@ From Parties, To Conferences, Birthdays ,Graduations and Anniversaries</p>
 
 	<div class="item"><a class="client-image"><img src="wp-content/uploads/2014/06/411-130x130.jpg" class="round"></a><h1 class="client-name">Mike Kelly</h1><h3 class="client-position">CEO Founder</h3><p class="client-desc">The Best Choice i could do for my tailor made birthday party. My special day was really special thanks to Mula Vip Rentals</p></div>
 
-	<div class="item"><a class="client-image"><img src="wp-content/uploads/2014/06/321-130x130.jpg" class="round"></a><h1 class="client-name">Julia</h1><h3 class="client-position">Cape Town</h3><p class="client-desc"> I needed classic cars for Wedding and Mula VIP Rentals heard all my wishes</p></div></div></div>
+	<div class="item"><a class="client-image"><img src="wp-content/uploads/2014/06/321-130x130.jpg" class="round"></a><h1 class="client-name">Julia</h1><h3 class="client-position">Cape Town</h3><p class="client-desc"> I needed classic cars for my Wedding and Mula VIP Rentals heard all my wishes</p></div></div></div>
 
 	<div class="vntd-cta vntd-cta-style-centered"><h1 class="f-head mini-header"></h1><p class="f-text"></p><a href="#works" class="vntd-cta-button scroll vntd-button-white"><h3>OUR LUXURY OFFER</h3><p class="semibold">click here for our services</p></a><a href="#contact" class="vntd-cta-button scroll vntd-button-white"><h3>CONTACT US</h3><p class="semibold">ask us a quotation</p></a></div>
 		</div> 
@@ -1011,6 +1010,7 @@ From Parties, To Conferences, Birthdays ,Graduations and Anniversaries</p>
 		<div class="wpb_wrapper">
 			<div class="vntd-special-heading"><h1 id="booking-form" class="header  animated" data-animation="fadeIn" data-animation-delay="100"> Booking Selection</h1><div class="header-strips-one  animated" data-animation="fadeIn" data-animation-delay="100"></div><h2 class="description normal  animated" data-animation="fadeIn" data-animation-delay="100">Fill out the form or use the contacts below</h2></div><div class="contact font-primary"><div role="form" class="wpcf7" id="wpcf7-f417-p745-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
+
 <form action="index.html" method="post" class="wpcf7-form" novalidate="novalidate">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="417" />
@@ -1033,134 +1033,239 @@ From Parties, To Conferences, Birthdays ,Graduations and Anniversaries</p>
 <p>    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Your Message"></textarea></span></p>
 
 </div>
+<!--  Details -->
+  <div class="form-group">
+    <h2 class="heading">Details</h2>
+    <div class="grid">
+    <div class="">
+      <div class="controls col-md-6">
+      	<label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+        <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>">
+        </div>      
+    </div>
+    <div class="">
+      <div class="controls col-md-6">
+      	 <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+        <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+       </div>      
+    </div>
+      </div>
+      <div  class="Grid">
+    <div id="carsIdentifier" class="col-1-3 col-1-3-sm">
+      <div class="controls">
+        <i class="fa fa-car"></i>
+        <label for="fruit">&nbsp;&nbsp;<h3>CARS</h3>
+         <p>Available Cars</p>
+        </label>
+        <select id="carGrid" style="color: gray" class="floatLabel">
+        	
+          <option value="blank"></option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Toyota" selected>Toyota</option>
+          <option value="BMW">BMW</option>
+        </select>
+        
+      </div>      
+    </div>
+    <div id="carsIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+      <label for="fruit">Rental Purpose</label>
+      <select style="color: gray" class="floatLabel">
+      	Rental Purpose
+        <option value="blank"></option>
+        <option value="Matric Dance" selected>Matric Dance</option>
+        <option value="film-shoot">Film Shoot</option>
+      </select>
+      
+     </div>     
+    </div>
 
-<div class="">
-	CARS
-<select id="carselection" name="favourite_car" size="">
-<option value="all" selected="selected">Available Cars</option>
-<option value="cricket">Mercedes Benz</option>
-<option value="football">BMW i8</option>
-<option value="ice_hockey">Lamborghini</option>
-</select>
+    <div id="carsIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+       <label for="hour selecter">Select Hours</label>
+      <select style="color: gray" class="floatLabel">
+      	Select Hours
+        <option value="number"></option>
+        <option value="">One</option>
+        <option value="" selected>Two</option>
+      </select>
+     
+     </div>     
+    </div>
+      
+     </div>
+      <div class="grid">
+        
+        <br>
 
-RENTAL PURPOSE  :	
-<select id="carselection" name="favourite_car" size="">
-<option value="all" selected="selected">Rental Purpose</option>
-<option value="cricket">Film Shoot</option>
-<option value="football">Matric Dance</option>
-<option value="ice_hockey">Wedding</option>
-</select>
+  <div  class="grid">
+    <div id="housesIdentifier" class="col-1-3 col-1-3-sm">
+      <div class="controls">
+        <i class="fa fa-house"></i>
+       <label for="fruit">&nbsp;&nbsp;<h3>HOUSES</h3> 
+       	<p>Number of Rooms</p>
+       </label>
+        <select style="color: gray" class="floatLabel">
+          <option value="blank"></option>
+          <option value="one">1</option>
+          <option value="Two" selected>2</option>
+          <option value="Three">3</option>
 
- NUMBER OF HOURS  :	
-<select id="houseselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of Hours</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
-</div>
+        </select>
+        
+      </div>      
+    </div>
+    <div id="housesIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+      <label for="fruit">Rental Purpose</label>
+      <select style="color: gray" class="floatLabel">
+      	Rental Purpose
+        <option value="blank"></option>
+        <option value="Matric Dance" selected>Matric Dance</option>
+        <option value="film-shoot">Film Shoot</option>
+      </select>
+      
+     </div>     
+    </div>
 
-<div class="">
-HOUSES
-<select id="houseselection" name="favourite_car" size="">
-<option value="all" selected="selected">RENTAL PURPOSE</option>
-<option value="cricket">Film Shoot</option>
-<option value="football">Private Event</option>
-<option value="ice_hockey">Accomodation</option>
-</select>
+    <div id="housesIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+       <label for="hour selecter">Select Hours</label>
+      <select style="color: gray" class="floatLabel">
+      	Select Hours
+        <option value="number"></option>
+        <option value="">One</option>
+        <option value="" selected>Two</option>
+      </select>
+     
+     </div>     
+    </div>
+      
+     </div>
+      <div class="grid">
+        
+        <br>
 
-NUMBER OF ROOMS  :	
-<select id="houseselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of Rooms</option>
-<option value="cricket"> 1</option>
-<option value="football"> 2</option>
-<option value="ice_hockey"> 3</option>
-<option value="ice_hockey"> 4</option>
-<option value="ice_hockey"> 5 or more</option>
-</select>
+  <div  class="grid">
+    <div id="yachtIdentifier" class="col-1-3 col-1-3-sm ">
+      <div class="controls">
+        <i class="fa fa-boat"></i>
+       <label for="Yacht">&nbsp;&nbsp;<h3>YACHTS</h3> 
+       	<p>Number of People</p>
+       </label>
+        <select style="color: gray" class="floatLabel">
+          <option value="blank"></option>
+          <option value="one">1</option>
+          <option value="Two" selected>2</option>
+          <option value="Three">3</option>
 
- NUMBER OF HOURS  :	
-<select id="houseselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of Hours</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
-</div>
+        </select>
+        
+      </div>      
+    </div>
+    <div id="yachtIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+      <label for="Purpose">Rental Purpose</label>
+      <select style="color: gray" class="floatLabel">
+      	Rental Purpose
+        <option value="blank"></option>
+        <option value="Matric Dance" selected>Matric Dance</option>
+        <option value="film-shoot">Film Shoot</option>
+      </select>
+      
+     </div>     
+    </div>
 
-<div class="">
-YACHT
-<select id="yachtselection" name="favourite_car" size="">
-<option value="all" selected="selected">RENTAL PURPOSE</option>
-<option value="cricket">Film Shoot</option>
-<option value="football">Private Event</option>
-<option value="ice_hockey">Wedding</option>
-</select>
+    <div id="yachtIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+       <label for="hour selecter">Select Hours</label>
+      <select style="color: gray" class="floatLabel">
+      	Select Hours
+        <option value="number"></option>
+        <option value="">One</option>
+        <option value="" selected>Two</option>
+      </select>
+     
+     </div>     
+    </div>
+      
+     </div>
+      <div class="grid">
+        
+        <br>
 
-NUMBER OF PEOPLE  :	
-<select id="yachtselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of People</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
+  <div  class="grid">
+    <div id="jetIdentifier" class="col-1-3 col-1-3-sm">
+      <div class="controls">
+        <i class="fa fa-jet"></i>
+       <label for="Jet">&nbsp;&nbsp;<h3>JETS</h3> 
+       	<p>Number of People</p>
+       </label>
+        <select style="color: gray" class="floatLabel">
+          <option value="blank"></option>
+          <option value="one">1</option>
+          <option value="Two" selected>2</option>
+          <option value="Three">3</option>
 
-NUMBER OF HOURS  :	
-<select id="yachtselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of Hours</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
+        </select>
+        
+      </div>      
+    </div>
+    <div id="jetIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+      <label for="Purpose">Rental Purpose</label>
+      <select style="color: gray" class="floatLabel">
+      	Rental Purpose
+        <option value="blank"></option>
+        <option value="Matric Dance" selected>Private Charter </option>
+        <option value="film-shoot">Film Shoot</option>
+      </select>
+      
+     </div>     
+    </div>
 
-<div class="">
-JET 
-<select id="jetselection" name="favourite_car" size="">
-<option value="all" selected="selected">RENTAL PURPOSE</option>
-<option value="cricket">Private Charter</option>
-<option value="football">Film Shoot</option>
-<option value="ice_hockey">Wedding</option>
-</select>
+    <div id="jetIdentifier" class="col-1-3 col-1-3-sm">
+    <div class="controls">
+      <i class="fa "></i>
+       <label for="hour selecter">Select Hours</label>
+      <select style="color: gray" class="floatLabel">
+      	Select Hours
+        <option value="number"></option>
+        <option value="">One</option>
+        <option value="" selected>Two</option>
+      </select>
+     
+     </div>     
+    </div>
+      
+     </div>
+      <div class="grid">
+        
+        <br>
 
-NUMBER OF PEOPLE  :	
-<select id="jetselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of People</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
 
-NUMBER OF HOURS:	
-<select id="jetselection" name="favourite_car" size="">
-<option value="all" selected="selected">Number Of Hours</option>
-<option value="one"> 1</option>
-<option value="two"> 2</option>
-<option value="three"> 3</option>
-<option value="four"> 4</option>
-<option value="five"> 5 or more</option>
-</select>
-
- 
-</div>
 <div class="col-xs-12"><input type="submit" value="Send Email" class="wpcf7-form-control wpcf7-submit" /></div>
 <div class="wpcf7-response-output wpcf7-display-none"></div>
       
-</div>
+      </div>
 
 
-</form></div></div>
-		</div> 
-	</div> 
+     </form>
+
+
+
+
+    </div>
+   </div>
+  </div> 
+</div> 
 
 
 
