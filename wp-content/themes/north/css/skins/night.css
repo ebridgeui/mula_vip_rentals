@@ -57,20 +57,21 @@
 /* Dark Gradient Background */
 
 	#page-content .soft-bg-grade{
-		z-index: 1;
+		/* z-index: 1; */
 	}
 
 	#page-content .soft-bg-grade:before{
-		background: rgb(94,97,111); /* Old browsers */
+		/* background: rgb(94,97,111); */ /* Old browsers */
 		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-		background: -moz-linear-gradient(top,  rgba(94,97,111,0.85) 0%, rgba(18,19,23,0.85) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(94,97,111,0.85)), color-stop(100%,rgba(18,19,23,0.85))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e616f', endColorstr='#121317',GradientType=0 ); /* IE6-8 */
-		z-index:0;
+		/* background: -moz-linear-gradient(top,  rgba(94,97,111,0.85) 0%, rgba(18,19,23,0.85) 100%); */
+		/* FF3.6+ */
+		/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(94,97,111,0.85)), color-stop(100%,rgba(18,19,23,0.85))); */ /* Chrome,Safari4+ 
+		/* background: -webkit-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); */ /* Chrome10+,Safari5.1+ */
+		/* background: -o-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); */ /* Opera 11.10+ */
+		/* background: -ms-linear-gradient(top,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); */ /* IE10+ */
+		/* background: linear-gradient(to bottom,  rgba(94,97,111,0.85) 0%,rgba(18,19,23,0.85) 100%); */ /* W3C */
+		/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e616f', endColorstr='#121317',GradientType=0 ); */ /* IE6-8 /
+		/* z-index:0;*/
 		position: absolute;
 		left:0;
 		top: 0;
@@ -127,7 +128,7 @@
 
 	.home-boxes .owl-controls .owl-buttons div{
 		background-color:#24262c;
-	}
+	}*/
 
 /* What We Do Item Color */	
 

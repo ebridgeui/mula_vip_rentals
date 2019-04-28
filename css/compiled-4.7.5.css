@@ -3065,7 +3065,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  /* color: #212529; */
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -11176,7 +11176,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: rgba(0, 0, 0, 0.7); }
 
 .white, .carousel-thumbnails .carousel-indicators .active, .picker__list-item, .picker__box .picker__header .picker__select--month.browser-default, .picker__box .picker__header .picker__select--year.browser-default {
-  background-color: #fff !important; }
+  /* background-color: #fff !important; */ }
 
 .white-text, .card.card-cascade .view.view-cascade.gradient-card-header, .dropdown .dropdown-menu .dropdown-item:hover, .dropdown .dropdown-menu .dropdown-item:active,
 .dropup .dropdown-menu .dropdown-item:hover,
@@ -21830,7 +21830,7 @@ label.btn input[type="checkbox"]:disabled:checked + label:after {
 
 select {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: none !important; }
+  /* display: none !important; */ }
   select.browser-default {
     display: block !important; }
   select:disabled {
@@ -28015,7 +28015,7 @@ button.md-toast-close-button {
     .picker__footer .clockpicker-button:active {
       background-color: rgba(0, 150, 136, 0.25); }
 
-.darktheme .picker__box {
+/*.darktheme .picker__box {
   background-color: #212121; }
   .darktheme .picker__box .picker__date-display {
     background-color: transparent; }

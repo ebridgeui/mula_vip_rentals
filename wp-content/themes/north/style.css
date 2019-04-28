@@ -1168,7 +1168,7 @@ body.parallax .image-bg{
 }
 
 .home-inner.v1 .home-text-slider .flex-direction-nav li a{
-	opacity: 0.5;
+	opacity: 1;
 	display: block;
 	width:38px;
 	height: 38px;
@@ -1252,7 +1252,7 @@ ul.home-texts {
 	width:100%;
 	height: 1px;
 	background:white;
-	opacity: 0.2;
+	opacity: 1;
 	margin:23px auto 18px;
 }
 
@@ -1326,7 +1326,7 @@ ul.home-texts {
 	height: 55px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	opacity: 0.5;
+	opacity: 1;
 	margin-top:10px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -1574,7 +1574,7 @@ a.slide-button{
 	
 	.wp-caption-text {
 		font-style: italic;
-		opacity: 0.9;
+		opacity: ;
 		padding-top: 8px;
 	}
 	
